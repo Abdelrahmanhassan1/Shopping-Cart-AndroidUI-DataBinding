@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/firstHL"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        />
+        android:contentDescription="@string/pepper" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/firstProductPurshaced"
@@ -63,7 +63,7 @@
            app:layout_constraintStart_toStartOf="parent"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="Bell Pepper Red"
+           android:text="@string/bell_pepper_red"
            android:textSize="18sp"
            android:textStyle="bold"
            android:textColor="@color/black"
@@ -76,14 +76,14 @@
             android:layout_height="wrap_content"
             android:src="@drawable/clear_item"
             android:background="@drawable/empty_box"
-        />
+            android:contentDescription="@string/clear" />
         <TextView
             android:id="@+id/tvFirstProductInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/tvFirstProductTitle"
             app:layout_constraintStart_toStartOf="@+id/tvFirstProductTitle"
-            android:text="1Kg, Price"
+            android:text="@string/_1kg_price"
             android:textSize="15sp"
             />
         <ImageButton
@@ -96,7 +96,7 @@
             android:padding="8dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/item_counter_border"
-            />
+            android:contentDescription="@string/subtract" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -121,11 +121,11 @@
             android:layout_marginStart="15dp"
             android:padding="8dp"
             android:background="@drawable/item_counter_border"
-            />
+            android:contentDescription="@string/add" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$4.99"
+            android:text="@string/_4_99"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="@+id/addProduct1"
@@ -157,7 +157,7 @@
         app:layout_constraintTop_toBottomOf="@+id/firstProductHL"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        />
+        android:contentDescription="@string/egg" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/secondProductPurshaced"
@@ -174,7 +174,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Egg Chicken Red"
+            android:text="@string/egg_chicken_red"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -187,14 +187,14 @@
             android:layout_height="wrap_content"
             android:src="@drawable/clear_item"
             android:background="@drawable/empty_box"
-            />
+            android:contentDescription="@string/clear" />
         <TextView
             android:id="@+id/tvSecondProductInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/tvSecondProductTitle"
             app:layout_constraintStart_toStartOf="@+id/tvSecondProductTitle"
-            android:text="4pcs, Price"
+            android:text="@string/_4pcs_price"
             android:textSize="15sp"
             />
         <ImageButton
@@ -207,7 +207,7 @@
             android:padding="8dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/item_counter_border"
-            />
+            android:contentDescription="@string/subtract" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -232,11 +232,11 @@
             android:layout_marginStart="15dp"
             android:padding="8dp"
             android:background="@drawable/item_counter_border"
-            />
+            android:contentDescription="@string/add" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$1.99"
+            android:text="@string/_1_99"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="@+id/addProduct2"
@@ -268,7 +268,7 @@
         app:layout_constraintTop_toBottomOf="@+id/secondProductHL"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        />
+        android:contentDescription="@string/banana" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/thirdProductPurshaced"
@@ -285,7 +285,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Organic Bananas"
+            android:text="@string/organic_bananas"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -298,14 +298,14 @@
             android:layout_height="wrap_content"
             android:src="@drawable/clear_item"
             android:background="@drawable/empty_box"
-            />
+            android:contentDescription="@string/clear" />
         <TextView
             android:id="@+id/tvThirdProductInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/tvThirdProductTitle"
             app:layout_constraintStart_toStartOf="@+id/tvThirdProductTitle"
-            android:text="12Kg, Price"
+            android:text="@string/_12kg_price"
             android:textSize="15sp"
             />
         <ImageButton
@@ -318,7 +318,7 @@
             android:padding="8dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/item_counter_border"
-            />
+            android:contentDescription="@string/subtract" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -343,11 +343,11 @@
             android:layout_marginStart="15dp"
             android:padding="8dp"
             android:background="@drawable/item_counter_border"
-            />
+            android:contentDescription="@string/add" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$3.00"
+            android:text="@string/_3_00"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="@+id/addProduct3"
@@ -362,6 +362,117 @@
         app:layout_constraintTop_toBottomOf="@+id/thirdProductPurshaced"
         app:layout_constraintStart_toStartOf="@+id/thirdProductIMG"
         app:layout_constraintEnd_toEndOf="@+id/thirdProductPurshaced"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="20dp"
+        />
+
+    <!--    fourth product-->
+
+    <ImageView
+        android:id="@+id/fourthProductIMG"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ginger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdProductHL"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/ginger" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fourthProductPurshaced"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/fourthProductIMG"
+        app:layout_constraintEnd_toEndOf="@+id/thirdProductHL"
+        app:layout_constraintTop_toTopOf="@+id/fourthProductIMG"
+        android:layout_marginStart="15dp"
+        tools:ignore="MissingConstraints"
+        >
+        <TextView
+            android:id="@+id/tvFourthProductTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ginger"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <ImageButton
+            android:id="@+id/clearProduct4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvFourthProductTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clear_item"
+            android:background="@drawable/empty_box"
+            android:contentDescription="@string/clear" />
+        <TextView
+            android:id="@+id/tvFourthProductInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tvFourthProductTitle"
+            app:layout_constraintStart_toStartOf="@+id/tvFourthProductTitle"
+            android:text="@string/_250g_price"
+            android:textSize="15sp"
+            />
+        <ImageButton
+            android:id="@+id/deleteProduct4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/tvFourthProductTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvFourthProductInfo"
+            android:src="@drawable/delete"
+            android:padding="8dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/item_counter_border"
+            android:contentDescription="@string/subtract" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            android:id="@+id/tvFourthProductCounter"
+            app:layout_constraintStart_toEndOf="@+id/deleteProduct4"
+            app:layout_constraintTop_toTopOf="@+id/deleteProduct4"
+            app:layout_constraintBottom_toBottomOf="@+id/deleteProduct4"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            />
+        <ImageButton
+            android:id="@+id/addProduct4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/tvFourthProductCounter"
+            app:layout_constraintTop_toTopOf="@+id/deleteProduct4"
+            app:layout_constraintBottom_toBottomOf="@+id/deleteProduct4"
+            android:src="@drawable/plus"
+            android:layout_marginStart="15dp"
+            android:padding="8dp"
+            android:background="@drawable/item_counter_border"
+            android:contentDescription="@string/add" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_99"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@+id/addProduct4"
+            app:layout_constraintBottom_toBottomOf="@+id/addProduct4"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/clearProduct4"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/fourthProductHL"
+        app:layout_constraintTop_toBottomOf="@+id/fourthProductPurshaced"
+        app:layout_constraintStart_toStartOf="@+id/fourthProductIMG"
+        app:layout_constraintEnd_toEndOf="@+id/fourthProductPurshaced"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:background="@color/gray"

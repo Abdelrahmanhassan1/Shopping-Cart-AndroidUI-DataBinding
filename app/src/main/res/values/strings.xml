@@ -12,4 +12,20 @@
     <string name="_1">1</string>
     <string name="arrow_right">arrow right</string>
     <string name="my_cart">My Cart</string>
+    <string name="bell_pepper_red">Bell Pepper Red</string>
+    <string name="clear">clear</string>
+    <string name="subtract">subtract</string>
+    <string name="add">add</string>
+    <string name="pepper">Pepper</string>
+    <string name="egg">Egg</string>
+    <string name="banana">banana</string>
+    <string name="ginger">Ginger</string>
+    <string name="_250g_price">250g, Price</string>
+    <string name="_2_99">$2.99</string>
+    <string name="egg_chicken_red">Egg Chicken Red</string>
+    <string name="_4pcs_price">4pcs, Price</string>
+    <string name="_1_99">$1.99</string>
+    <string name="organic_bananas">Organic Bananas</string>
+    <string name="_12kg_price">12Kg, Price</string>
+    <string name="_3_00">$3.00</string>
 </resources>
