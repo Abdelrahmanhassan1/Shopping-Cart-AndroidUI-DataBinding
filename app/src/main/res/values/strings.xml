@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Task2DataBinding</string>
+    <string name="arrowback" />
+    <string name="upload" />
+    <string name="apple">apple</string>
+    <string name="natural_red_apple">Natural Red Apple</string>
+    <string name="_1kg_price">1Kg, Price</string>
+    <string name="minus_sign">minus sign</string>
+    <string name="_4_99">$4.99</string>
+    <string name="product_detail_info">Apples Are Nutritous. Apples May Be Good For Weight Loss. Apples May Be Good For Your Health As Part Of A Healthful And Varied Diet.</string>
+    <string name="add_to_basket">Add to Basket</string>
+    <string name="_1">1</string>
+    <string name="arrow_right">arrow right</string>
+</resources>

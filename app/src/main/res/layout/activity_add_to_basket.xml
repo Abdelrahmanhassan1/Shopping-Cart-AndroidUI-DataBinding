@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_To_Basket">
+
+<!--    first block-->
+    <ImageButton
+        android:id="@+id/IVarrowBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/arrow_back"
+        android:background="@drawable/empty_box"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/arrowback"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/IVupload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/IVarrowBack"
+        app:layout_constraintBottom_toBottomOf="@+id/IVarrowBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/empty_box"
+        android:contentDescription="@string/upload"
+        android:src="@drawable/upload"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/IVApples"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/apple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/IVarrowBack"
+        android:contentDescription="@string/apple"
+        />
+
+<!--    second block-->
+    <TextView
+        android:id="@+id/tvItemTitle"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintTop_toBottomOf="@+id/IVApples"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/natural_red_apple"
+        android:layout_alignParentStart="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        />
+    <ImageButton
+        android:id="@+id/ibWishIcon"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        app:layout_constraintTop_toTopOf="@+id/tvItemTitle"
+        app:layout_constraintBottom_toBottomOf="@+id/tvItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/heart"
+        android:background="@drawable/empty_box"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tvItemInfo"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1kg_price"
+        android:layout_alignStart="@+id/tvItemTitle"
+        android:layout_alignTop="@+id/tvItemTitle"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        />
+    <ImageButton
+        android:id="@+id/ibDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        android:background="@drawable/empty_box"
+        app:layout_constraintStart_toStartOf="@+id/tvItemTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemInfo"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/minus_sign"
+        />
+
+    <TextView
+        android:id="@+id/tvItemCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:background="@drawable/item_counter_border"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ibDelete"
+        app:layout_constraintTop_toTopOf="@+id/ibDelete"
+        app:layout_constraintBottom_toBottomOf="@+id/ibDelete"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        android:background="@drawable/empty_box"
+        app:layout_constraintStart_toEndOf="@id/tvItemCounter"
+        app:layout_constraintTop_toTopOf="@+id/tvItemCounter"
+        app:layout_constraintBottom_toBottomOf="@+id/tvItemCounter"
+        android:layout_marginStart="20dp"
+        android:contentDescription="add button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_99"
+        app:layout_constraintEnd_toEndOf="@+id/ibWishIcon"
+        app:layout_constraintTop_toTopOf="@+id/tvItemCounter"
+        app:layout_constraintBottom_toBottomOf="@+id/tvItemCounter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <View
+        android:id="@+id/firstHL"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemCounter"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_marginTop="15dp"
+        />
+    <!--    third block-->
+
+    <TextView
+        android:id="@+id/tvProductDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Detail"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintTop_toBottomOf="@+id/firstHL"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        android:src="@drawable/arrow_down"
+        android:background="@drawable/empty_box"
+        app:layout_constraintTop_toTopOf="@+id/tvProductDetail"
+        app:layout_constraintBottom_toBottomOf="@+id/tvProductDetail"
+        />
+
+    <TextView
+        android:id="@+id/productDetailInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductDetail"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/product_detail_info"
+        />
+    <View
+        android:id="@+id/secondHL"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        app:layout_constraintTop_toBottomOf="@+id/productDetailInfo"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_marginTop="15dp"
+        />
+    <!--    fourth block-->
+
+    <TextView
+        android:id="@+id/tvNutrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nutritions"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintTop_toBottomOf="@+id/secondHL"
+        />
+
+    <ImageButton
+        android:id="@+id/ibArrowRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        android:src="@drawable/arrow_right"
+        android:background="@drawable/empty_box"
+        app:layout_constraintTop_toTopOf="@+id/tvNutrition"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNutrition"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100gr"
+        app:layout_constraintEnd_toStartOf="@+id/ibArrowRight"
+        app:layout_constraintTop_toTopOf="@+id/tvNutrition"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNutrition"
+        android:background="@color/gray"
+        android:padding="3dp"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        />
+    <View
+        android:id="@+id/thirdHL"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        app:layout_constraintTop_toBottomOf="@+id/tvNutrition"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_marginTop="15dp"
+        />
+
+    <!--    fifth block-->
+
+    <TextView
+        android:id="@+id/tvReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintTop_toBottomOf="@+id/thirdHL"
+        />
+
+    <ImageButton
+        android:id="@+id/reviewRightArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        android:src="@drawable/arrow_right"
+        android:background="@drawable/empty_box"
+        app:layout_constraintTop_toTopOf="@+id/tvReview"
+        app:layout_constraintBottom_toBottomOf="@+id/tvReview"
+        android:contentDescription="@string/arrow_right" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/reviewRightArrow"
+        app:layout_constraintTop_toTopOf="@+id/reviewRightArrow"
+        app:layout_constraintBottom_toBottomOf="@+id/reviewRightArrow"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_filled"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/empty_box"
+           />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_filled"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/empty_box"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_filled"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/empty_box"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_filled"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/empty_box"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_filled"
+            android:background="@drawable/empty_box"
+            />
+
+    </LinearLayout>
+
+
+<!--    button-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/IVarrowBack"
+        app:layout_constraintEnd_toEndOf="@+id/IVupload"
+        app:layout_constraintTop_toBottomOf="@+id/tvReview"
+        android:layout_marginTop="12dp"
+        android:text="@string/add_to_basket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:backgroundTint="#53b175"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
