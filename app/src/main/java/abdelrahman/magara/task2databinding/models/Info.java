@@ -5,7 +5,4 @@ public class Info {
     public String lName;
     public String hello;
 
-    public Info(String name){
-        this.firstName = name;
-    }
 }
