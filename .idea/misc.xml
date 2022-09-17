@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/add_to_basket_border.xml" value="0.2975" />
         <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.2975" />
         <entry key="app/src/main/res/drawable/arrow_down.xml" value="0.2975" />
+        <entry key="app/src/main/res/drawable/bottom_menu.xml" value="0.2975" />
         <entry key="app/src/main/res/drawable/box_shape_not_filled.xml" value="0.2975" />
         <entry key="app/src/main/res/drawable/btn_txt_selector.xml" value="0.2975" />
         <entry key="app/src/main/res/drawable/clear_item.xml" value="0.2975" />
@@ -17,6 +18,8 @@
         <entry key="app/src/main/res/layout/activity_add_to_basket.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_shopping_cart.xml" value="0.3546875" />
+        <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.3546875" />
+        <entry key="app/src/main/res/layout/fragment_store.xml" value="0.3546875" />
       </map>
     </option>
   </component>

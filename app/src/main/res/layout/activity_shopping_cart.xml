@@ -13,7 +13,6 @@
         tools:context=".ShoppingCart">
 
 
-
     <!--    first block -->
         <TextView
             android:id="@+id/tvCart"
@@ -57,7 +56,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/firstProductPurshaced"
-            android:layout_width="255dp"
+            android:layout_width="245dp"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toEndOf="@+id/firstProductIMG"
             app:layout_constraintEnd_toEndOf="@+id/firstHL"
@@ -169,7 +168,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/secondProductPurshaced"
-            android:layout_width="255dp"
+            android:layout_width="245dp"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toEndOf="@+id/secondProductIMG"
             app:layout_constraintEnd_toEndOf="@+id/firstProductHL"
@@ -280,7 +279,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/thirdProductPurshaced"
-            android:layout_width="255dp"
+            android:layout_width="245dp"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toEndOf="@+id/thirdProductIMG"
             app:layout_constraintEnd_toEndOf="@+id/secondProductHL"
@@ -391,7 +390,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/fourthProductPurshaced"
-            android:layout_width="255dp"
+            android:layout_width="245dp"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toEndOf="@+id/fourthProductIMG"
             app:layout_constraintEnd_toEndOf="@+id/thirdProductHL"
@@ -503,7 +502,7 @@
             android:backgroundTint="#53b175"
             />
 
-        
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
